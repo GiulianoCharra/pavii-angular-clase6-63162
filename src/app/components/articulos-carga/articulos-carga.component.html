@@ -1,0 +1,10 @@
+<h3>Cargar articulo</h3>
+<form [formGroup]="fg">
+  Id Articulo
+  <input formControlName="IdArticuloFamilia" />
+  <br />
+  Nombre articulo
+  <input formControlName="Nombre" />
+  <br />
+  <input type="button" (click)="grabar()" value="grabar" />
+</form>
